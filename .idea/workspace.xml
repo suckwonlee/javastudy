@@ -4,21 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d1b08b5-a30e-4925-927b-aee2943e7649" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java0905.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp07/dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp07/maindog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp07/test1/mainsquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp07/test1/square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp07/test2/Bicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp07/test3/Cylinder.java" afterDir="false" />
+    <list default="true" id="1d1b08b5-a30e-4925-927b-aee2943e7649" name="변경" comment="0905">
+      <change afterPath="$PROJECT_DIR$/src/chp08/chp08_1/MainHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/chp08_1/hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/chp08_2/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/chp08_2/MainDrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/chp08_4/Avenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/chp08_4/MainAvenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +29,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;suckwonlee&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/suckwonlee/javastudy&quot;,
+    &quot;accountId&quot;: &quot;5727a32b-81a9-4e9a-a1dc-6940137320eb&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2ld3eg395MChRY24azdYh7fWi5P" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -58,10 +67,18 @@
     "onboarding.tips.debug.path": "D:/java1_2/java0905/src/Main.java",
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.Cylinder.executor": "Run",
+    "애플리케이션.Main.executor": "Run",
+    "애플리케이션.MainHero.executor": "Run",
+    "애플리케이션.hero.executor": "Run",
     "애플리케이션.maindog.executor": "Run",
     "애플리케이션.mainsquare.executor": "Run"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java1_2\java0905\src\chp08_4" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,11 +95,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725496223449</updated>
-      <workItem from="1725496224498" duration="7781000" />
+      <workItem from="1725496224498" duration="8055000" />
+      <workItem from="1725512861192" duration="42000" />
+      <workItem from="1726099894286" duration="228000" />
+      <workItem from="1726101302529" duration="10021000" />
     </task>
+    <task id="LOCAL-00001" summary="0905">
+      <option name="closed" value="true" />
+      <created>1725504669184</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725504669184</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="0905" />
+    <option name="LAST_COMMIT_MESSAGE" value="0905" />
   </component>
 </project>
