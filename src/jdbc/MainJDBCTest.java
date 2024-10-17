@@ -7,4 +7,3 @@ public class MainJDBCTest {
         Connection con = JDBCConnector.getConnection();
     }
 }
-s
