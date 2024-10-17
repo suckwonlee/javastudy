@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d1b08b5-a30e-4925-927b-aee2943e7649" name="변경" comment="0912 클래스">
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_4/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_4/MainShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_4/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_4/Triangle.java" afterDir="false" />
+    <list default="true" id="1d1b08b5-a30e-4925-927b-aee2943e7649" name="변경" comment="업캐스팅: 실습 10-4(배열)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/MainJDBCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/MainJDBCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chp10/ex10_4/MainShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp10/ex10_4/MainShape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,31 +47,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/jdbc/ojdbc11.jar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/java1_2/java0905/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;라이브러리&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;애플리케이션.Cylinder.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.MainHero.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.MainJDBCTest.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.hero.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.maindog.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.mainsquare.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Program Files/jdbc/ojdbc11.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/java1_2/java0905/src/Main.java",
+    "project.structure.last.edited": "라이브러리",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.Cylinder.executor": "Run",
+    "애플리케이션.Main.executor": "Run",
+    "애플리케이션.MainHero.executor": "Run",
+    "애플리케이션.MainJDBCTest.executor": "Run",
+    "애플리케이션.MainShape.executor": "Run",
+    "애플리케이션.hero.executor": "Run",
+    "애플리케이션.maindog.executor": "Run",
+    "애플리케이션.mainsquare.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\java1_2\java0905\src\chp08_4" />
@@ -102,7 +99,7 @@
       <workItem from="1726099894286" duration="228000" />
       <workItem from="1726101302529" duration="10714000" />
       <workItem from="1729046210903" duration="761000" />
-      <workItem from="1729124665091" duration="708000" />
+      <workItem from="1729124665091" duration="1215000" />
     </task>
     <task id="LOCAL-00001" summary="0905">
       <option name="closed" value="true" />
@@ -136,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729046291373</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="업캐스팅: 실습 10-4(배열)">
+      <option name="closed" value="true" />
+      <created>1729125726749</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729125726749</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +150,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0905" />
     <MESSAGE value="0912 클래스" />
-    <option name="LAST_COMMIT_MESSAGE" value="0912 클래스" />
+    <MESSAGE value="업캐스팅: 실습 10-4(배열)" />
+    <option name="LAST_COMMIT_MESSAGE" value="업캐스팅: 실습 10-4(배열)" />
   </component>
 </project>
