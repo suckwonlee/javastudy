@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d1b08b5-a30e-4925-927b-aee2943e7649" name="변경" comment="업캐스팅: 실습 10-4">
-      <change afterPath="$PROJECT_DIR$/src/jdbc2/Controller/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc2/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc2/view/CustomerView.java" afterDir="false" />
+    <list default="true" id="1d1b08b5-a30e-4925-927b-aee2943e7649" name="변경" comment="JDBC Programming &amp; 패키지를 MVC 모델링에 따라 분류하여 사용">
+      <change afterPath="$PROJECT_DIR$/src/jdbc3/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc3/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc3/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc3/view/productView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/MainJDBCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/MainJDBCTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +68,7 @@
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.Cylinder.executor": "Run",
     "애플리케이션.Main.executor": "Run",
+    "애플리케이션.MainController.executor": "Run",
     "애플리케이션.MainHero.executor": "Run",
     "애플리케이션.MainJDBCTest.executor": "Run",
     "애플리케이션.MainShape.executor": "Run",
@@ -104,7 +105,11 @@
       <workItem from="1729046210903" duration="761000" />
       <workItem from="1729124665091" duration="5537000" />
       <workItem from="1729642171844" duration="13000" />
-      <workItem from="1729649376667" duration="2594000" />
+      <workItem from="1729649376667" duration="2686000" />
+      <workItem from="1730180396494" duration="12000" />
+      <workItem from="1730180415559" duration="118000" />
+      <workItem from="1730246704512" duration="635000" />
+      <workItem from="1730249175460" duration="6071000" />
     </task>
     <task id="LOCAL-00001" summary="0905">
       <option name="closed" value="true" />
@@ -170,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729126458519</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="JDBC Programming &amp; 패키지를 MVC 모델링에 따라 분류하여 사용">
+      <option name="closed" value="true" />
+      <created>1729652073562</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729652073562</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +195,8 @@
     <MESSAGE value="업캐스팅: 실습 10-4(배열)" />
     <MESSAGE value="업캐스팅: 실습 10-4(어레이리스트)" />
     <MESSAGE value="업캐스팅: 실습 10-4" />
-    <option name="LAST_COMMIT_MESSAGE" value="업캐스팅: 실습 10-4" />
+    <MESSAGE value="JDBC Programming &amp; 패키지를 MVC 모델링에 따라 분류하여 사룡" />
+    <MESSAGE value="JDBC Programming &amp; 패키지를 MVC 모델링에 따라 분류하여 사용" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDBC Programming &amp; 패키지를 MVC 모델링에 따라 분류하여 사용" />
   </component>
 </project>
