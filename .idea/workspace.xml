@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d1b08b5-a30e-4925-927b-aee2943e7649" name="변경" comment="JDBC Programming &amp; 패키지를 MVC 모델링에 따라 분류하여 사용">
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/view/productView.java" afterDir="false" />
+    <list default="true" id="1d1b08b5-a30e-4925-927b-aee2943e7649" name="변경" comment="10장 상속,메소드오버라이딩 생성자 호출 순서와 실행순서,추상클래스 개념">
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_5/Archer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_5/MainArcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_5/MasterArcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_6/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_6/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_6/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_6/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_6/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_7/AAA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_7/BBB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_7/MainConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_8/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_8/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_8/Truck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +78,8 @@
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.Cylinder.executor": "Run",
     "애플리케이션.Main.executor": "Run",
+    "애플리케이션.MainArcher.executor": "Run",
+    "애플리케이션.MainConstructor.executor": "Run",
     "애플리케이션.MainController.executor": "Run",
     "애플리케이션.MainHero.executor": "Run",
     "애플리케이션.MainJDBCTest.executor": "Run",
@@ -109,7 +121,8 @@
       <workItem from="1730180396494" duration="12000" />
       <workItem from="1730180415559" duration="118000" />
       <workItem from="1730246704512" duration="635000" />
-      <workItem from="1730249175460" duration="6071000" />
+      <workItem from="1730249175460" duration="6444000" />
+      <workItem from="1730333718564" duration="8735000" />
     </task>
     <task id="LOCAL-00001" summary="0905">
       <option name="closed" value="true" />
@@ -183,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729652073562</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="JDBC Programming &amp; 패키지를 MVC 모델링에 따라 분류하여 사용">
+      <option name="closed" value="true" />
+      <created>1730255962959</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730255962959</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +218,7 @@
     <MESSAGE value="업캐스팅: 실습 10-4" />
     <MESSAGE value="JDBC Programming &amp; 패키지를 MVC 모델링에 따라 분류하여 사룡" />
     <MESSAGE value="JDBC Programming &amp; 패키지를 MVC 모델링에 따라 분류하여 사용" />
-    <option name="LAST_COMMIT_MESSAGE" value="JDBC Programming &amp; 패키지를 MVC 모델링에 따라 분류하여 사용" />
+    <MESSAGE value="10장 상속,메소드오버라이딩 생성자 호출 순서와 실행순서,추상클래스 개념" />
+    <option name="LAST_COMMIT_MESSAGE" value="10장 상속,메소드오버라이딩 생성자 호출 순서와 실행순서,추상클래스 개념" />
   </component>
 </project>
