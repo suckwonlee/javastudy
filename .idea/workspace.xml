@@ -4,22 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d1b08b5-a30e-4925-927b-aee2943e7649" name="변경" comment="10장 상속,메소드오버라이딩 생성자 호출 순서와 실행순서,추상클래스 개념">
-      <change afterPath="$PROJECT_DIR$/src/chp10/Protected1/Mainchild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/Protected1/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/Protected1/test/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_10/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_10/MainItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_11/Item2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_11/MainWeapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_11/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_14/MainPro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_14/pack1/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_14/pack2/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_9/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_9/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_9/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_9/MainAnimal.java" afterDir="false" />
+    <list default="true" id="1d1b08b5-a30e-4925-927b-aee2943e7649" name="변경" comment="10장 상속,추상클래스,this,super,protected">
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex_1_2_3/Alarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex_1_2_3/G24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex_1_2_3/IPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex_1_2_3/MainIphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex_1_2_3/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex_1_2_3/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex_4/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex_4/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex_4/Helicopter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex_4/MainFlyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex_4/Rocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex_5/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex_5/MainVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex_5/Train.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex_5/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -76,6 +77,7 @@
     "project.structure.last.edited": "라이브러리",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.Cylinder.executor": "Run",
     "애플리케이션.Main.executor": "Run",
@@ -83,9 +85,13 @@
     "애플리케이션.MainArcher.executor": "Run",
     "애플리케이션.MainConstructor.executor": "Run",
     "애플리케이션.MainController.executor": "Run",
+    "애플리케이션.MainFlyable.executor": "Run",
     "애플리케이션.MainHero.executor": "Run",
+    "애플리케이션.MainIphone.executor": "Run",
     "애플리케이션.MainJDBCTest.executor": "Run",
+    "애플리케이션.MainPro.executor": "Run",
     "애플리케이션.MainShape.executor": "Run",
+    "애플리케이션.MainVehicle.executor": "Run",
     "애플리케이션.MainWeapon.executor": "Run",
     "애플리케이션.Mainchild.executor": "Run",
     "애플리케이션.Mainitem.executor": "Run",
@@ -129,7 +135,8 @@
       <workItem from="1730249175460" duration="6444000" />
       <workItem from="1730333718564" duration="9963000" />
       <workItem from="1730852082755" duration="9000" />
-      <workItem from="1730938717162" duration="8480000" />
+      <workItem from="1730938717162" duration="9833000" />
+      <workItem from="1731543180722" duration="7976000" />
     </task>
     <task id="LOCAL-00001" summary="0905">
       <option name="closed" value="true" />
@@ -219,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730342590961</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="10장 상속,추상클래스,this,super,protected">
+      <option name="closed" value="true" />
+      <created>1730947498902</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1730947498902</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +249,18 @@
     <MESSAGE value="JDBC Programming &amp; 패키지를 MVC 모델링에 따라 분류하여 사룡" />
     <MESSAGE value="JDBC Programming &amp; 패키지를 MVC 모델링에 따라 분류하여 사용" />
     <MESSAGE value="10장 상속,메소드오버라이딩 생성자 호출 순서와 실행순서,추상클래스 개념" />
-    <option name="LAST_COMMIT_MESSAGE" value="10장 상속,메소드오버라이딩 생성자 호출 순서와 실행순서,추상클래스 개념" />
+    <MESSAGE value="10장 상속,추상클래스,this,super,protected" />
+    <option name="LAST_COMMIT_MESSAGE" value="10장 상속,추상클래스,this,super,protected" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/chp10/ex10_14/MainPro.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
