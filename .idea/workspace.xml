@@ -4,23 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d1b08b5-a30e-4925-927b-aee2943e7649" name="변경" comment="11장 인터페이스(개념,상수,추상메소드,default 메소드,static 메소드)">
-      <change afterPath="$PROJECT_DIR$/src/chp11/ex_7/DayInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp11/ex_7/MainConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp11/ex_8/Healer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp11/ex_8/HolyKnight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp11/ex_8/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp11/ex_8/MagicKnight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp11/ex_8/Magician.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp11/ex_8/MainGameSimulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_1/MainException12_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_2/ExceptionEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_2/MainException12_3.java" afterDir="false" />
+    <list default="true" id="1d1b08b5-a30e-4925-927b-aee2943e7649" name="변경" comment="12장 예외발생이유,처리방법">
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_4/MainNullPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_4/NullpointerExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_5/InterruptedExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_5/MainInterrrupted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_6/MainMyAgeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_6/MyAgeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_7/MainThrows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_7/MyAgeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_7/ThrowsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_9/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_9/MainBankAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chp11/ex_5/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp11/ex_5_6/Bicycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chp11/ex_5/MainVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp11/ex_5_6/MainVehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chp11/ex_5/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp11/ex_5_6/Train.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chp11/ex_5/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp11/ex_5_6/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +61,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindow.Build.ShowToolbar": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/java1_2/java0905",
@@ -91,14 +88,19 @@
     "애플리케이션.MainFlyable.executor": "Run",
     "애플리케이션.MainGameSimulation.executor": "Run",
     "애플리케이션.MainHero.executor": "Run",
+    "애플리케이션.MainInterrrupted.executor": "Run",
     "애플리케이션.MainIphone.executor": "Run",
     "애플리케이션.MainJDBCTest.executor": "Run",
+    "애플리케이션.MainMyAgeException.executor": "Run",
+    "애플리케이션.MainNullPointer.executor": "Run",
     "애플리케이션.MainPro.executor": "Run",
     "애플리케이션.MainShape.executor": "Run",
+    "애플리케이션.MainThrows.executor": "Run",
     "애플리케이션.MainVehicle.executor": "Run",
     "애플리케이션.MainWeapon.executor": "Run",
     "애플리케이션.Mainchild.executor": "Run",
     "애플리케이션.Mainitem.executor": "Run",
+    "애플리케이션.UncheckedExceptionTest.executor": "Run",
     "애플리케이션.hero.executor": "Run",
     "애플리케이션.maindog.executor": "Run",
     "애플리케이션.mainsquare.executor": "Run"
@@ -107,6 +109,9 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\java1_2\java0905\src\chp08_4" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chp12.ex12_7" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -141,7 +146,8 @@
       <workItem from="1730852082755" duration="9000" />
       <workItem from="1730938717162" duration="9833000" />
       <workItem from="1731543180722" duration="11315000" />
-      <workItem from="1732147947581" duration="9228000" />
+      <workItem from="1732147947581" duration="10018000" />
+      <workItem from="1732754284603" duration="6590000" />
     </task>
     <task id="LOCAL-00001" summary="0905">
       <option name="closed" value="true" />
@@ -247,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731552428831</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="12장 예외발생이유,처리방법">
+      <option name="closed" value="true" />
+      <created>1732157513000</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1732157513000</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +278,8 @@
     <MESSAGE value="10장 상속,메소드오버라이딩 생성자 호출 순서와 실행순서,추상클래스 개념" />
     <MESSAGE value="10장 상속,추상클래스,this,super,protected" />
     <MESSAGE value="11장 인터페이스(개념,상수,추상메소드,default 메소드,static 메소드)" />
-    <option name="LAST_COMMIT_MESSAGE" value="11장 인터페이스(개념,상수,추상메소드,default 메소드,static 메소드)" />
+    <MESSAGE value="12장 예외발생이유,처리방법" />
+    <option name="LAST_COMMIT_MESSAGE" value="12장 예외발생이유,처리방법" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
