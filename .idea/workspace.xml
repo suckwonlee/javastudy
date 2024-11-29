@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d1b08b5-a30e-4925-927b-aee2943e7649" name="변경" comment="12장 예외발생이유,처리방법">
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_4/MainNullPointer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_4/NullpointerExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_5/InterruptedExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_5/MainInterrrupted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_6/MainMyAgeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_6/MyAgeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_7/MainThrows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_7/MyAgeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_7/ThrowsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_9/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_9/MainBankAccount.java" afterDir="false" />
+    <list default="true" id="1d1b08b5-a30e-4925-927b-aee2943e7649" name="변경" comment="12장 예외 종류, throw,throws 처리">
+      <change afterPath="$PROJECT_DIR$/src/jdbc3/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc3/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc3/view/MenuView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc3/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc3/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc3/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc3/repository/ProductRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,13 +68,14 @@
     "project.structure.last.edited": "라이브러리",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.Cylinder.executor": "Run",
     "애플리케이션.ExceptionEx2.executor": "Run",
     "애플리케이션.Main.executor": "Run",
     "애플리케이션.MainAnimal.executor": "Run",
     "애플리케이션.MainArcher.executor": "Run",
+    "애플리케이션.MainBankAccount.executor": "Run",
     "애플리케이션.MainConstant.executor": "Run",
     "애플리케이션.MainConstructor.executor": "Run",
     "애플리케이션.MainController.executor": "Run",
@@ -117,8 +112,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.24807.4" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.24807.4" />
       </set>
     </attachedChunks>
   </component>
@@ -147,7 +142,9 @@
       <workItem from="1730938717162" duration="9833000" />
       <workItem from="1731543180722" duration="11315000" />
       <workItem from="1732147947581" duration="10018000" />
-      <workItem from="1732754284603" duration="6590000" />
+      <workItem from="1732754284603" duration="7460000" />
+      <workItem from="1732860114745" duration="1687000" />
+      <workItem from="1732861997574" duration="1241000" />
     </task>
     <task id="LOCAL-00001" summary="0905">
       <option name="closed" value="true" />
@@ -261,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732157513000</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="12장 예외 종류, throw,throws 처리">
+      <option name="closed" value="true" />
+      <created>1732762138240</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1732762138240</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +284,8 @@
     <MESSAGE value="10장 상속,추상클래스,this,super,protected" />
     <MESSAGE value="11장 인터페이스(개념,상수,추상메소드,default 메소드,static 메소드)" />
     <MESSAGE value="12장 예외발생이유,처리방법" />
-    <option name="LAST_COMMIT_MESSAGE" value="12장 예외발생이유,처리방법" />
+    <MESSAGE value="12장 예외 종류, throw,throws 처리" />
+    <option name="LAST_COMMIT_MESSAGE" value="12장 예외 종류, throw,throws 처리" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

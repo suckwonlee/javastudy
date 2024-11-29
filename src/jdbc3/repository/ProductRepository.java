@@ -10,12 +10,14 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class ProductRepository {
-    public static ArrayList<Product> getList(){
+    public static ArrayList<Product> getList(String type, String searchWord) {
         ArrayList<Product> arrList=new ArrayList<Product>();
         Connection con= JDBCConnector.getConnection();//연결객체
-        String sql="select * from 제품";
+        String sql="select * from 제품 where "+type+" like ?";
         try {
             PreparedStatement pstmt = con.prepareStatement(sql);//문장객체
+            pstmt.setString(1, "%" + searchWord + "%");
+
             ResultSet rs= pstmt.executeQuery();
             while(rs.next()){
                 Product product=new Product();
