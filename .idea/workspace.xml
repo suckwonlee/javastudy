@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d1b08b5-a30e-4925-927b-aee2943e7649" name="변경" comment="JDBC">
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_10/MainBankAccountReader.java" afterDir="false" />
+    <list default="true" id="1d1b08b5-a30e-4925-927b-aee2943e7649" name="변경" comment="12-10">
+      <change afterPath="$PROJECT_DIR$/src/_gui/controller/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_gui/view/OrderInfoView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +79,7 @@
     "애플리케이션.MainController.executor": "Run",
     "애플리케이션.MainException12_1.executor": "Run",
     "애플리케이션.MainFlyable.executor": "Run",
+    "애플리케이션.MainFrame.executor": "Run",
     "애플리케이션.MainGameSimulation.executor": "Run",
     "애플리케이션.MainHero.executor": "Run",
     "애플리케이션.MainInterrrupted.executor": "Run",
@@ -142,7 +144,7 @@
       <workItem from="1732754284603" duration="7460000" />
       <workItem from="1732860114745" duration="1687000" />
       <workItem from="1732861997574" duration="1578000" />
-      <workItem from="1733357817900" duration="2931000" />
+      <workItem from="1733357817900" duration="8029000" />
     </task>
     <task id="LOCAL-00001" summary="0905">
       <option name="closed" value="true" />
@@ -272,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732863572731</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="12-10">
+      <option name="closed" value="true" />
+      <created>1733361817414</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1733361817414</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +302,8 @@
     <MESSAGE value="12장 예외발생이유,처리방법" />
     <MESSAGE value="12장 예외 종류, throw,throws 처리" />
     <MESSAGE value="JDBC" />
-    <option name="LAST_COMMIT_MESSAGE" value="JDBC" />
+    <MESSAGE value="12-10" />
+    <option name="LAST_COMMIT_MESSAGE" value="12-10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
