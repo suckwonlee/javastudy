@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d1b08b5-a30e-4925-927b-aee2943e7649" name="변경" comment="12장 예외 종류, throw,throws 처리">
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/service/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/view/MenuView.java" afterDir="false" />
+    <list default="true" id="1d1b08b5-a30e-4925-927b-aee2943e7649" name="변경" comment="JDBC">
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_10/MainBankAccountReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc3/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc3/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc3/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc3/repository/ProductRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +72,7 @@
     "애플리케이션.MainAnimal.executor": "Run",
     "애플리케이션.MainArcher.executor": "Run",
     "애플리케이션.MainBankAccount.executor": "Run",
+    "애플리케이션.MainBankAccountReader.executor": "Run",
     "애플리케이션.MainConstant.executor": "Run",
     "애플리케이션.MainConstructor.executor": "Run",
     "애플리케이션.MainController.executor": "Run",
@@ -144,7 +141,8 @@
       <workItem from="1732147947581" duration="10018000" />
       <workItem from="1732754284603" duration="7460000" />
       <workItem from="1732860114745" duration="1687000" />
-      <workItem from="1732861997574" duration="1241000" />
+      <workItem from="1732861997574" duration="1578000" />
+      <workItem from="1733357817900" duration="2931000" />
     </task>
     <task id="LOCAL-00001" summary="0905">
       <option name="closed" value="true" />
@@ -266,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732762138240</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="JDBC">
+      <option name="closed" value="true" />
+      <created>1732863572731</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1732863572731</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +291,8 @@
     <MESSAGE value="11장 인터페이스(개념,상수,추상메소드,default 메소드,static 메소드)" />
     <MESSAGE value="12장 예외발생이유,처리방법" />
     <MESSAGE value="12장 예외 종류, throw,throws 처리" />
-    <option name="LAST_COMMIT_MESSAGE" value="12장 예외 종류, throw,throws 처리" />
+    <MESSAGE value="JDBC" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDBC" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
