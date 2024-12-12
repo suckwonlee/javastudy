@@ -1,12 +1,14 @@
 package _gui.entity;
 
 public class ProductEntity {
-    public String getProductNum() {
-    return productNum;
-}
+    private String productNum;
+    private String getProductName;
+    private int stockNum;
+    private int unitPrice;
+    private String manufacturer;
 
-    public void setProductNum(String productNum) {
-        this.productNum = productNum;
+    public String getProductNum() {
+        return productNum;
     }
 
     public String getGetProductName() {
@@ -40,10 +42,4 @@ public class ProductEntity {
     public void setManufacturer(String manufacturer) {
         this.manufacturer = manufacturer;
     }
-
-    private String productNum;
-    private String getProductName;
-    private int stockNum;
-    private int unitPrice;
-    private String manufacturer;
 }

@@ -1,35 +1,41 @@
 package _gui.controller;
 
 import _gui.view.OrderInfoView;
+import _gui.repository.OrderRepository;
 
 import javax.swing.*;
 import java.awt.*;
 
 public class MainFrame extends JFrame {
-    public static final int Frame_WIDTH = 700;
-    public static final int Frame_Height = 500;
+    public static final int FRAME_WIDTH = 900;
+    public static final int FRAME_Height = 500;
+
+    public int frameX = 300;
+    public int frameY = 200;
 
     public MainFrame() {
-        super("정보검색프로그램");
-        setSize(Frame_WIDTH, Frame_Height);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        super("검색프로그램");
+        Toolkit toolkit = Toolkit.getDefaultToolkit();
+        Dimension dimension = toolkit.getScreenSize();
+        double sw = dimension.getWidth();
+        double sh = dimension.getHeight();
 
-        Toolkit tk = Toolkit.getDefaultToolkit();
-        Dimension dim = tk.getScreenSize();
-        int Frame_X = (dim.width - Frame_WIDTH) / 2;
-        int Frame_Y = (dim.height - Frame_Height) / 2;
-        setLocation(Frame_X, Frame_Y);
+        frameX = (int)((0.5)*(sw - FRAME_WIDTH));
+        frameY = (int)((0.5)*(sh - FRAME_Height));
 
-        OrderInfoView orderInfoView = new OrderInfoView();
-        add(orderInfoView, BorderLayout.CENTER);
+        OrderRepository orderRepository = new OrderRepository();
 
-        // 전체 데이터를 조회하기 위해 빈 문자열 전달
-        orderInfoView.setList("");
+        // OrderInfoView 생성 시 OrderRepository 전달
+        OrderInfoView orderInfoView = new OrderInfoView(orderRepository);
+        add(orderInfoView, "Center");
 
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setLocation(frameX, frameY);
+        setSize(FRAME_WIDTH, FRAME_Height);
         setVisible(true);
     }
 
     public static void main(String[] args) {
         new MainFrame();
-
-    }}
+    }
+}

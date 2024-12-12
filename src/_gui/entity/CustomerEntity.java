@@ -1,6 +1,13 @@
 package _gui.entity;
 
 public class CustomerEntity {
+    private String customerId;
+    private String customerName;
+    private int age;
+    private String level;
+    private String job;
+    private int savedMoney;
+
     public String getCustomerId() {
         return customerId;
     }
@@ -29,14 +36,6 @@ public class CustomerEntity {
         this.level = level;
     }
 
-    public int getSaveMoney() {
-        return saveMoney;
-    }
-
-    public void setSaveMoney(int saveMoney) {
-        this.saveMoney = saveMoney;
-    }
-
     public String getJob() {
         return job;
     }
@@ -45,13 +44,11 @@ public class CustomerEntity {
         this.job = job;
     }
 
-    private String customerId;
-    private String customerName;
-    private int age;
-    private String level;
-    private String job;
-    private int saveMoney;
+    public int getSavedMoney() {
+        return savedMoney;
+    }
 
-
-
+    public void setSavedMoney(int savedMoney) {
+        this.savedMoney = savedMoney;
+    }
 }

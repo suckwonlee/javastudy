@@ -3,8 +3,21 @@ package _gui.entity;
 import java.sql.Timestamp;
 
 public class OrderEntity {
+    private String orderNum;
+    private String orderCustomer;
+    private String customerName;
+    private String productName;
+    private String orderProduct;
+    private int amout;
+    private String destination;
+    private Timestamp orderDate;
+
     public String getOrderNum() {
         return orderNum;
+    }
+
+    public void setOrderNum(String orderNum) {
+        this.orderNum = orderNum;
     }
 
     public String getOrderCustomer() {
@@ -14,39 +27,6 @@ public class OrderEntity {
     public void setOrderCustomer(String orderCustomer) {
         this.orderCustomer = orderCustomer;
     }
-
-    public String getOrderProduct() {
-        return orderProduct;
-    }
-
-    public void setOrderProduct(String orderProduct) {
-        this.orderProduct = orderProduct;
-    }
-
-    public int getAmount() {
-        return amount;
-    }
-
-    public void setAmount(int amount) {
-        this.amount = amount;
-    }
-
-    public Timestamp getOrderDate() {
-        return orderDate;
-    }
-
-    public void setOrderDate(Timestamp orderDate) {
-        this.orderDate = orderDate;
-    }
-
-    public String getDestination() {
-        return destination;
-    }
-
-    public void setDestination(String destination) {
-        this.destination = destination;
-    }
-
 
     public String getCustomerName() {
         return customerName;
@@ -64,17 +44,35 @@ public class OrderEntity {
         this.productName = productName;
     }
 
-    public void setOrderNum(String orderNum) {
-        this.orderNum = orderNum;
+    public String getOrderProduct() {
+        return orderProduct;
     }
 
-    private String orderNum;
-    private String orderCustomer;
-    private String customerName;
-    private String productName;
-    private String orderProduct;
-    private int amount;
-    private String destination;
-    private Timestamp orderDate;
+    public void setOrderProduct(String orderProduct) {
+        this.orderProduct = orderProduct;
+    }
 
+    public int getAmout() {
+        return amout;
+    }
+
+    public void setAmout(int amout) {
+        this.amout = amout;
+    }
+
+    public String getDestination() {
+        return destination;
+    }
+
+    public void setDestination(String destination) {
+        this.destination = destination;
+    }
+
+    public Timestamp getOrderDate() {
+        return orderDate;
+    }
+
+    public void setOrderDate(Timestamp orderDate) {
+        this.orderDate = orderDate;
+    }
 }
